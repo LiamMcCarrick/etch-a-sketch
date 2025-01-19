@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, button, .grid-container {
+    margin-bottom: 10px;
+}
+
+.grid-container {
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    border: solid black 2px;
+    display: flex;
+}
