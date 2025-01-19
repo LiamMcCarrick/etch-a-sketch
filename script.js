@@ -9,9 +9,10 @@ for (i = 0; i < 16; i++) {
         pixel.style.border = "1px dashed gray";
         pixel.style.flex = 1;
         pixelRow.appendChild(pixel);
+        pixel.addEventListener("mouseover", () => {
+            pixel.style.backgroundColor = "red";
+        })
     }
     container.appendChild(pixelRow);
 }
-
-
 
